@@ -39,4 +39,5 @@ end
 
 def play(board)
   board.each do << "X"
+  end
 end

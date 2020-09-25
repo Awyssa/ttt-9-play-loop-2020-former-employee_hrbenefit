@@ -41,5 +41,4 @@ def play(board)
   board.each |token| do
     board << token
   end
-  end
 end

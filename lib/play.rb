@@ -40,4 +40,5 @@ end
 def play(board)
   board.each do |token|
     board << token
+  end
 end

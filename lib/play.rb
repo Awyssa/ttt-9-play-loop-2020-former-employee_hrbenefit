@@ -38,6 +38,8 @@ end
 # Define your play method below
 
 def play(board)
-  board.each do << "X"
+  board.each |token| do
+    board << token
+  end
   end
 end
